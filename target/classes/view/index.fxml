@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.IndexController">
+   <children>
+      <ProgressIndicator fx:id="progress" layoutX="208.0" layoutY="50.0" minHeight="150.0" minWidth="150.0" prefHeight="186.0" prefWidth="217.0" AnchorPane.bottomAnchor="164.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="50.0" />
+      <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="287.0" text="Atualizando" textAlignment="CENTER" AnchorPane.bottomAnchor="48.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="287.0">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
